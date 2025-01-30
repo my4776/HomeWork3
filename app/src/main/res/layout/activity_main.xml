@@ -5,7 +5,7 @@
     android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#FFFFFF"
+    android:background="#202020"
     tools:context=".MainActivity">
 
     <androidx.constraintlayout.widget.Guideline
@@ -49,6 +49,7 @@
         android:layout_marginStart="16dp"
         android:layout_marginTop="16dp"
         android:text="Twilight"
+        android:textColor="#FFFEFE"
         android:textSize="20sp"
         app:layout_constraintStart_toEndOf="@+id/imageView2"
         app:layout_constraintTop_toBottomOf="@+id/imageView" />
@@ -60,6 +61,7 @@
         android:layout_marginStart="16dp"
         android:layout_marginTop="16dp"
         android:text="The movie is about a girl who becomes a vampire who dates a vampire among a thousand."
+        android:textColor="#B4B4B4"
         app:layout_constraintStart_toEndOf="@+id/imageView2"
         app:layout_constraintTop_toBottomOf="@+id/textView" />
 
@@ -110,6 +112,7 @@
         android:layout_marginStart="16dp"
         android:layout_marginTop="16dp"
         android:text="Plot Summary"
+        android:textColor="#FFFFFF"
         android:textSize="20sp"
         app:layout_constraintStart_toStartOf="@+id/guideline"
         app:layout_constraintTop_toBottomOf="@+id/divider" />
@@ -120,6 +123,7 @@
         android:layout_height="125dp"
         android:layout_marginTop="8dp"
         android:text="The film is about a girl who becomes a vampire who dates a vampire among a thousand, at first the vampire family does not accept her and fears that she will expose them but slowly connects with her and takes her under their protection."
+        android:textColor="#B4B4B4"
         app:layout_constraintStart_toStartOf="@+id/textView3"
         app:layout_constraintTop_toBottomOf="@+id/textView3" />
 </androidx.constraintlayout.widget.ConstraintLayout>
